@@ -4,6 +4,8 @@ date = '2026-05-18T22:15:00+03:00'
 categories = ['Physics']
 tags = ['Quantum', 'System Design']
 math = true
+imageAlt = 'Quantum System Architecture'
+image = 'featured'
 +++
 
 This post explores how quantum principles like superposition and entanglement can inspire architectural patterns in complex distributed systems.
