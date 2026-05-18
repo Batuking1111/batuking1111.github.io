@@ -1,0 +1,5 @@
+/* Hide the small footer bar on article pages for a cleaner look. */
+.article-page footer.site-footer::before {
+  display: none;
+}
+
