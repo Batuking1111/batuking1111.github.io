@@ -46,6 +46,11 @@ theme = "stack"
       url = "/search/"
       weight = 3
 
+    [[menu.main]]
+      name = "About"
+      url = "/page/about/"
+      weight = 0
+
     # -- Widgets: make each widget an object with a `type` field so the partial can access `.type` --
     [params.widgets]
       homepage = [

@@ -1,6 +1,6 @@
 +++
-title = "About Me"
-slug = "about"
+# Deprecated: use /page/about/ instead.
+draft = true
 +++
 
 ## Mission at AlphaRayCorp
@@ -18,4 +18,3 @@ If you would like to collaborate, discuss research ideas, or connect professiona
 - Email: batuhanerkan10@gmail.com
 - LinkedIn: https://www.linkedin.com/in/batuhanerkann/
 - GitHub: https://github.com/Batuking1111
-
