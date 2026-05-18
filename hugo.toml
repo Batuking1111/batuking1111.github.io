@@ -2,22 +2,3 @@ baseURL = "https://batuking1111.github.io/"
 locale = 'en-us'
 title = "Batuhan Personal Blog"
 theme = "stack"
-[params]
-    mainSections = ["post"]
-    featuredImageField = "image"
-
-    [params.sidebar]
-        emoji = "🧠"
-        subtitle = "Founder of AlphaRayCorp"
-        avatar = "img/avatar.jpg"
-    [[params.sidebar.social]]
-        name = "github"
-        url = "https://github.com/Batuking1111"
-
-    [[params.sidebar.social]]
-        name = "alpha-ray-corp"
-        url = "https://github.com/alpharaycorp"
-
-    [[params.sidebar.social]]
-        name = "linkedin"
-        url = "https://www.linkedin.com/in/batuhanerkann/"
