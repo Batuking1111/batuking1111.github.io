@@ -10,14 +10,14 @@ theme = "stack"
         emoji = "🧠"
         subtitle = "Founder of AlphaRayCorp"
         avatar = "img/avatar.jpg"
-    [[params.social]]
+    [[params.sidebar.social]]
         name = "github"
         url = "https://github.com/Batuking1111"
 
-    [[params.social]]
+    [[params.sidebar.social]]
         name = "alpha-ray-corp"
         url = "https://github.com/alpharaycorp"
 
-    [[params.social]]
+    [[params.sidebar.social]]
         name = "linkedin"
         url = "https://www.linkedin.com/in/batuhanerkann/"
