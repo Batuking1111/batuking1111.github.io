@@ -21,6 +21,20 @@ theme = "stack"
       url  = "https://www.linkedin.com/in/batuhanerkann/"
       params = { Icon = "link", newTab = true }
 
+    [[menu.main]]
+      name = "Home"
+      url = "/"
+      weight = 1
+
+    [[menu.main]]
+      name = "Archives"
+      url = "/archives/"
+      weight = 2
+
+    [[menu.main]]
+      name = "Search"
+      url = "/search/"
+      weight = 3
 
     # -- Widgets: make each widget an object with a `type` field so the partial can access `.type` --
     [params.widgets]
