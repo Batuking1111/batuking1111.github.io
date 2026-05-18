@@ -1,0 +1,12 @@
+baseURL = "http://localhost:1313/"
+locale = 'en-us'
+title = "Zihinsel Mimari"
+theme = "stack"
+[params]
+    mainSections = ["post"]
+    featuredImageField = "image"
+
+    [params.sidebar]
+        emoji = "🧠"
+        subtitle = "Fizik, Strateji ve Sistem Tasarımı"
+        avatar = "img/avatar.jpg"
