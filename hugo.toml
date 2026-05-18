@@ -7,7 +7,10 @@ theme = "stack"
     featuredImageField = "image"
 
     [params.sidebar]
-      avatar = "img/avatar.jpg"
+      avatar = "/img/avatar.jpg"
+
+    [params.comments]
+      enabled = false
 
     [[menu.social]]
       name = "GitHub"
