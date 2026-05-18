@@ -19,4 +19,14 @@ theme = "stack"
     [[menu.social]]
       name = "LinkedIn"
       url  = "https://www.linkedin.com/in/batuhanerkann/"
-      params = { Icon = "brand-linkedin", newTab = true }
+      params = { Icon = "link", newTab = true }
+
+
+    # -- Widgets: make each widget an object with a `type` field so the partial can access `.type` --
+    [params.widgets]
+      homepage = [
+        { type = "search" },
+        { type = "archives" },
+        { type = "categories" },
+        { type = "tag-cloud" }
+      ]
