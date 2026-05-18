@@ -6,26 +6,17 @@ theme = "stack"
     mainSections = ["post"]
     featuredImageField = "image"
 
-    [params.sidebar]
-        emoji = "🧠"
-        subtitle = "Founder of AlphaRayCorp"
-        avatar = "img/avatar.jpg"
-    [[params.sidebar.social]]
-        name = "github"
-        url = "https://github.com/Batuking1111"
+    [[menu.social]]
+      name = "GitHub"
+      url  = "https://github.com/Batuking1111"
+      params = { Icon = "brand-github", newTab = true }
 
-    [[params.sidebar.social]]
-        name = "alpha-ray-corp"
-        url = "https://github.com/alpharaycorp"
+    [[menu.social]]
+      name = "Alpha Ray Corp"
+      url  = "https://github.com/alpharaycorp"
+      params = { Icon = "brand-github", newTab = true }
 
-    [[params.sidebar.social]]
-        name = "linkedin"
-        url = "https://www.linkedin.com/in/batuhanerkann/"
-    [params.widgets]
-      # homepage as array of widget objects (each widget must have a `type` key)
-      homepage = [
-        { type = "search" },
-        { type = "archives" },
-        { type = "categories" },
-        { type = "tag-cloud" }
-      ]
+    [[menu.social]]
+      name = "LinkedIn"
+      url  = "https://www.linkedin.com/in/batuhanerkann/"
+      params = { Icon = "brand-linkedin", newTab = true }
