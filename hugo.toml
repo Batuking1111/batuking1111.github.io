@@ -5,6 +5,10 @@ theme = "stack"
 [params]
     mainSections = ["post"]
     featuredImageField = "image"
+    favicon = "/img/favicon.png"
+
+    [params.opengraph.twitter]
+      card = "summary_large_image"
 
     [params.sidebar]
       avatar = "/img/avatar.jpg"
@@ -54,3 +58,9 @@ theme = "stack"
 [taxonomies]
   category = "categories"
   tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[cascade]
+  image = "/img/og-default.png"
