@@ -1,6 +1,6 @@
 baseURL = "http://localhost:1313/"
 locale = 'en-us'
-title = "Zihinsel Mimari"
+title = Batuhan Personal Blog"
 theme = "stack"
 [params]
     mainSections = ["post"]
@@ -8,5 +8,16 @@ theme = "stack"
 
     [params.sidebar]
         emoji = "🧠"
-        subtitle = "Fizik, Strateji ve Sistem Tasarımı"
+        subtitle = "Founder of AlphaRayCorp"
         avatar = "img/avatar.jpg"
+    [[params.social]]
+        name = "github"
+        url = "https://github.com/Batuking1111"
+
+    [[params.social]]
+        name = "alpha-ray-corp"
+        url = "https://github.com/alpharaycorp"
+
+    [[params.social]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/batuhanerkann/
