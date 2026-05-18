@@ -66,6 +66,4 @@ theme = "stack"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
-[cascade]
-  image = "/img/og-default.png"
+  page = ["HTML", "JSON"]

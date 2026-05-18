@@ -1,5 +1,5 @@
 +++
-title = "Search"
-layout = "search"
+# Deprecated: use /page/search/ instead.
+draft = true
 +++
 
