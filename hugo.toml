@@ -1,6 +1,6 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://batuking1111.github.io/"
 locale = 'en-us'
-title = Batuhan Personal Blog"
+title = "Batuhan Personal Blog"
 theme = "stack"
 [params]
     mainSections = ["post"]
