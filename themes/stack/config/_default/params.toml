@@ -7,7 +7,7 @@ SortBy         = "default"
 
 [footer]
     since      = 2026
-    customText = ""
+    customText = " "
 
 [dateFormat]
     published   = ":date_full"
@@ -86,7 +86,7 @@ SortBy         = "default"
 
 [colorScheme]
     toggle  = true
-    default = "auto"
+    default = "dark"
 
 [imageProcessing]
     autoOrient = false
