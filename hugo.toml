@@ -7,7 +7,7 @@ theme = "stack"
     featuredImageField = "image"
 
     [params.sidebar]
-        emoji = ""
+        emoji = "🧠"
         subtitle = "Founder of AlphaRayCorp"
         avatar = "img/avatar.jpg"
     [[params.sidebar.social]]
